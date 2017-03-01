@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root>
+    <file name="A_list_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.A_list_BehaviorDescriptor" />
+    </file>
+    <file name="Attr_list_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Attr_list_BehaviorDescriptor" />
+    </file>
+    <file name="Attr_stmt_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Attr_stmt_BehaviorDescriptor" />
+    </file>
+    <file name="BaseConcept_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.BaseConcept_BehaviorDescriptor" />
+    </file>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="13,0,41,0" name="jetbrains.mps.samples.Dot.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="EdgeRHS_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.EdgeRHS_BehaviorDescriptor" />
+    </file>
+    <file name="EdgeRHS_block_1_1_1_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.EdgeRHS_block_1_1_1_BehaviorDescriptor" />
+    </file>
+    <file name="EdgeRHS_block_1_1_2_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.EdgeRHS_block_1_1_2_BehaviorDescriptor" />
+    </file>
+    <file name="Edge_stmt_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Edge_stmt_BehaviorDescriptor" />
+    </file>
+    <file name="Edge_stmt_block_1_1_1_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Edge_stmt_block_1_1_1_BehaviorDescriptor" />
+    </file>
+    <file name="Edge_stmt_block_1_1_2_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Edge_stmt_block_1_1_2_BehaviorDescriptor" />
+    </file>
+    <file name="Graph_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Graph_BehaviorDescriptor" />
+    </file>
+    <file name="IEdgeRHS_block_1_1_BehaviorDescriptor.java">
+      <unit at="11,0,14,0" name="jetbrains.mps.samples.Dot.behavior.IEdgeRHS_block_1_1_BehaviorDescriptor" />
+    </file>
+    <file name="IEdge_stmt_block_1_1_BehaviorDescriptor.java">
+      <unit at="11,0,14,0" name="jetbrains.mps.samples.Dot.behavior.IEdge_stmt_block_1_1_BehaviorDescriptor" />
+    </file>
+    <file name="IPort_BehaviorDescriptor.java">
+      <unit at="11,0,14,0" name="jetbrains.mps.samples.Dot.behavior.IPort_BehaviorDescriptor" />
+    </file>
+    <file name="IStmt_BehaviorDescriptor.java">
+      <unit at="11,0,14,0" name="jetbrains.mps.samples.Dot.behavior.IStmt_BehaviorDescriptor" />
+    </file>
+    <file name="IdentifiableConcept_BehaviorDescriptor.java">
+      <unit at="11,0,14,0" name="jetbrains.mps.samples.Dot.behavior.IdentifiableConcept_BehaviorDescriptor" />
+    </file>
+    <file name="Node_id_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Node_id_BehaviorDescriptor" />
+    </file>
+    <file name="Node_stmt_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Node_stmt_BehaviorDescriptor" />
+    </file>
+    <file name="Port_1_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Port_1_BehaviorDescriptor" />
+    </file>
+    <file name="Port_2_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Port_2_BehaviorDescriptor" />
+    </file>
+    <file name="Stmt_1_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Stmt_1_BehaviorDescriptor" />
+    </file>
+    <file name="Stmt_2_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Stmt_2_BehaviorDescriptor" />
+    </file>
+    <file name="Stmt_3_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Stmt_3_BehaviorDescriptor" />
+    </file>
+    <file name="Stmt_4_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Stmt_4_BehaviorDescriptor" />
+    </file>
+    <file name="Stmt_5_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Stmt_5_BehaviorDescriptor" />
+    </file>
+    <file name="Stmt_list_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Stmt_list_BehaviorDescriptor" />
+    </file>
+    <file name="Stmt_list_block_1_1_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Stmt_list_block_1_1_BehaviorDescriptor" />
+    </file>
+    <file name="Subgraph_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Subgraph_BehaviorDescriptor" />
+    </file>
+    <file name="Subgraph_block_1_1_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="jetbrains.mps.samples.Dot.behavior.Subgraph_block_1_1_BehaviorDescriptor" />
+    </file>
+  </root>
+</debug-info>
+
