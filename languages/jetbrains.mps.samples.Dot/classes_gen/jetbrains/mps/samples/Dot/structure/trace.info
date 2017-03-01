@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
   <root>
     <file name="ConceptPresentationAspectImpl.java">
       <unit at="11,0,109,0" name="jetbrains.mps.samples.Dot.structure.ConceptPresentationAspectImpl" />
@@ -16,13 +20,13 @@
   </root>
   <root nodeRef="r:12c82f07-44c4-4d22-9a27-3ace56e28889(jetbrains.mps.samples.Dot.structure)/4071813177449211320">
     <file name="ID_PropertySupport.java">
-      <node id="4071813177449211320" at="8,44,9,28" concept="4" />
-      <node id="4071813177449211320" at="10,24,11,21" concept="1" />
-      <node id="4071813177449211320" at="12,12,13,24" concept="1" />
-      <node id="4071813177449211320" at="14,5,15,78" concept="5" />
+      <node id="4071813177449211320" at="8,44,9,28" concept="6" />
+      <node id="4071813177449211320" at="10,24,11,21" concept="2" />
+      <node id="4071813177449211320" at="12,12,13,24" concept="2" />
+      <node id="4071813177449211320" at="14,5,15,78" concept="7" />
       <node id="4071813177449211320" at="12,10,14,5" concept="0" />
-      <node id="4071813177449211320" at="9,28,14,5" concept="2" />
-      <node id="4071813177449211320" at="8,0,17,0" concept="3" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="4071813177449211320" at="9,28,14,5" concept="4" />
+      <node id="4071813177449211320" at="8,0,17,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
       <scope id="4071813177449211320" at="10,24,11,21" />
       <scope id="4071813177449211320" at="12,12,13,24" />
       <scope id="4071813177449211320" at="8,44,15,78">
@@ -36,13 +40,13 @@
   </root>
   <root nodeRef="r:12c82f07-44c4-4d22-9a27-3ace56e28889(jetbrains.mps.samples.Dot.structure)/4071813177449211323">
     <file name="Attr_separator_PropertySupport.java">
-      <node id="4071813177449211323" at="8,44,9,28" concept="4" />
-      <node id="4071813177449211323" at="10,24,11,21" concept="1" />
-      <node id="4071813177449211323" at="12,12,13,24" concept="1" />
-      <node id="4071813177449211323" at="14,5,15,38" concept="5" />
+      <node id="4071813177449211323" at="8,44,9,28" concept="6" />
+      <node id="4071813177449211323" at="10,24,11,21" concept="2" />
+      <node id="4071813177449211323" at="12,12,13,24" concept="2" />
+      <node id="4071813177449211323" at="14,5,15,38" concept="7" />
       <node id="4071813177449211323" at="12,10,14,5" concept="0" />
-      <node id="4071813177449211323" at="9,28,14,5" concept="2" />
-      <node id="4071813177449211323" at="8,0,17,0" concept="3" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="4071813177449211323" at="9,28,14,5" concept="4" />
+      <node id="4071813177449211323" at="8,0,17,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
       <scope id="4071813177449211323" at="10,24,11,21" />
       <scope id="4071813177449211323" at="12,12,13,24" />
       <scope id="4071813177449211323" at="8,44,15,38">
@@ -56,13 +60,13 @@
   </root>
   <root nodeRef="r:12c82f07-44c4-4d22-9a27-3ace56e28889(jetbrains.mps.samples.Dot.structure)/4071813177449211330">
     <file name="Attr_target_PropertySupport.java">
-      <node id="4071813177449211330" at="8,44,9,28" concept="4" />
-      <node id="4071813177449211330" at="10,24,11,21" concept="1" />
-      <node id="4071813177449211330" at="12,12,13,24" concept="1" />
-      <node id="4071813177449211330" at="14,5,15,50" concept="5" />
+      <node id="4071813177449211330" at="8,44,9,28" concept="6" />
+      <node id="4071813177449211330" at="10,24,11,21" concept="2" />
+      <node id="4071813177449211330" at="12,12,13,24" concept="2" />
+      <node id="4071813177449211330" at="14,5,15,50" concept="7" />
       <node id="4071813177449211330" at="12,10,14,5" concept="0" />
-      <node id="4071813177449211330" at="9,28,14,5" concept="2" />
-      <node id="4071813177449211330" at="8,0,17,0" concept="3" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="4071813177449211330" at="9,28,14,5" concept="4" />
+      <node id="4071813177449211330" at="8,0,17,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
       <scope id="4071813177449211330" at="10,24,11,21" />
       <scope id="4071813177449211330" at="12,12,13,24" />
       <scope id="4071813177449211330" at="8,44,15,50">
@@ -76,13 +80,13 @@
   </root>
   <root nodeRef="r:12c82f07-44c4-4d22-9a27-3ace56e28889(jetbrains.mps.samples.Dot.structure)/4071813177449211333">
     <file name="Edgeop_PropertySupport.java">
-      <node id="4071813177449211333" at="8,44,9,28" concept="4" />
-      <node id="4071813177449211333" at="10,24,11,21" concept="1" />
-      <node id="4071813177449211333" at="12,12,13,24" concept="1" />
-      <node id="4071813177449211333" at="14,5,15,38" concept="5" />
+      <node id="4071813177449211333" at="8,44,9,28" concept="6" />
+      <node id="4071813177449211333" at="10,24,11,21" concept="2" />
+      <node id="4071813177449211333" at="12,12,13,24" concept="2" />
+      <node id="4071813177449211333" at="14,5,15,38" concept="7" />
       <node id="4071813177449211333" at="12,10,14,5" concept="0" />
-      <node id="4071813177449211333" at="9,28,14,5" concept="2" />
-      <node id="4071813177449211333" at="8,0,17,0" concept="3" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="4071813177449211333" at="9,28,14,5" concept="4" />
+      <node id="4071813177449211333" at="8,0,17,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
       <scope id="4071813177449211333" at="10,24,11,21" />
       <scope id="4071813177449211333" at="12,12,13,24" />
       <scope id="4071813177449211333" at="8,44,15,38">
@@ -96,13 +100,13 @@
   </root>
   <root nodeRef="r:12c82f07-44c4-4d22-9a27-3ace56e28889(jetbrains.mps.samples.Dot.structure)/4071813177449211340">
     <file name="Subgraph_0DCm_PropertySupport.java">
-      <node id="4071813177449211340" at="8,44,9,28" concept="4" />
-      <node id="4071813177449211340" at="10,24,11,21" concept="1" />
-      <node id="4071813177449211340" at="12,12,13,24" concept="1" />
-      <node id="4071813177449211340" at="14,5,15,41" concept="5" />
+      <node id="4071813177449211340" at="8,44,9,28" concept="6" />
+      <node id="4071813177449211340" at="10,24,11,21" concept="2" />
+      <node id="4071813177449211340" at="12,12,13,24" concept="2" />
+      <node id="4071813177449211340" at="14,5,15,41" concept="7" />
       <node id="4071813177449211340" at="12,10,14,5" concept="0" />
-      <node id="4071813177449211340" at="9,28,14,5" concept="2" />
-      <node id="4071813177449211340" at="8,0,17,0" concept="3" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="4071813177449211340" at="9,28,14,5" concept="4" />
+      <node id="4071813177449211340" at="8,0,17,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
       <scope id="4071813177449211340" at="10,24,11,21" />
       <scope id="4071813177449211340" at="12,12,13,24" />
       <scope id="4071813177449211340" at="8,44,15,41">
@@ -116,13 +120,13 @@
   </root>
   <root nodeRef="r:12c82f07-44c4-4d22-9a27-3ace56e28889(jetbrains.mps.samples.Dot.structure)/4071813177449211352">
     <file name="GRAPH_KIND_PropertySupport.java">
-      <node id="4071813177449211352" at="8,44,9,28" concept="4" />
-      <node id="4071813177449211352" at="10,24,11,21" concept="1" />
-      <node id="4071813177449211352" at="12,12,13,24" concept="1" />
-      <node id="4071813177449211352" at="14,5,15,48" concept="5" />
+      <node id="4071813177449211352" at="8,44,9,28" concept="6" />
+      <node id="4071813177449211352" at="10,24,11,21" concept="2" />
+      <node id="4071813177449211352" at="12,12,13,24" concept="2" />
+      <node id="4071813177449211352" at="14,5,15,48" concept="7" />
       <node id="4071813177449211352" at="12,10,14,5" concept="0" />
-      <node id="4071813177449211352" at="9,28,14,5" concept="2" />
-      <node id="4071813177449211352" at="8,0,17,0" concept="3" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="4071813177449211352" at="9,28,14,5" concept="4" />
+      <node id="4071813177449211352" at="8,0,17,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
       <scope id="4071813177449211352" at="10,24,11,21" />
       <scope id="4071813177449211352" at="12,12,13,24" />
       <scope id="4071813177449211352" at="8,44,15,48">
@@ -136,13 +140,13 @@
   </root>
   <root nodeRef="r:12c82f07-44c4-4d22-9a27-3ace56e28889(jetbrains.mps.samples.Dot.structure)/4071813177449211357">
     <file name="Compass_pt_PropertySupport.java">
-      <node id="4071813177449211357" at="8,44,9,28" concept="4" />
-      <node id="4071813177449211357" at="10,24,11,21" concept="1" />
-      <node id="4071813177449211357" at="12,12,13,24" concept="1" />
-      <node id="4071813177449211357" at="14,5,15,57" concept="5" />
+      <node id="4071813177449211357" at="8,44,9,28" concept="6" />
+      <node id="4071813177449211357" at="10,24,11,21" concept="2" />
+      <node id="4071813177449211357" at="12,12,13,24" concept="2" />
+      <node id="4071813177449211357" at="14,5,15,57" concept="7" />
       <node id="4071813177449211357" at="12,10,14,5" concept="0" />
-      <node id="4071813177449211357" at="9,28,14,5" concept="2" />
-      <node id="4071813177449211357" at="8,0,17,0" concept="3" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="4071813177449211357" at="9,28,14,5" concept="4" />
+      <node id="4071813177449211357" at="8,0,17,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
       <scope id="4071813177449211357" at="10,24,11,21" />
       <scope id="4071813177449211357" at="12,12,13,24" />
       <scope id="4071813177449211357" at="8,44,15,57">
@@ -152,6 +156,116 @@
         <var name="value" id="4071813177449211357" />
       </scope>
       <unit id="4071813177449211357" at="7,0,18,0" name="jetbrains.mps.samples.Dot.structure.Compass_pt_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:12c82f07-44c4-4d22-9a27-3ace56e28889(jetbrains.mps.samples.Dot.structure)/4071813177449420861">
+    <file name="GraphKind.java">
+      <node id="4071813177449420861" at="13,0,14,0" concept="3" trace="myName" />
+      <node id="4071813177449420861" at="14,27,15,18" concept="7" />
+      <node id="4071813177449420861" at="17,0,18,0" concept="3" trace="myValue" />
+      <node id="4071813177449420861" at="18,48,19,18" concept="2" />
+      <node id="4071813177449420861" at="19,18,20,20" concept="2" />
+      <node id="4071813177449420861" at="22,28,23,19" concept="7" />
+      <node id="4071813177449420861" at="25,36,26,19" concept="7" />
+      <node id="4071813177449420861" at="28,48,29,78" concept="6" />
+      <node id="4071813177449420861" at="29,78,30,60" concept="2" />
+      <node id="4071813177449420861" at="30,60,31,62" concept="2" />
+      <node id="4071813177449420861" at="31,62,32,16" concept="7" />
+      <node id="4071813177449420861" at="34,40,35,27" concept="7" />
+      <node id="4071813177449420861" at="38,24,39,36" concept="7" />
+      <node id="4071813177449420861" at="41,59,42,29" concept="7" />
+      <node id="4071813177449420861" at="44,61,45,31" concept="7" />
+      <node id="4071813177449420861" at="46,5,47,34" concept="7" />
+      <node id="4071813177449420861" at="14,0,17,0" concept="5" trace="getName#()Ljava/lang/String;" />
+      <node id="4071813177449420861" at="22,0,25,0" concept="5" trace="getValue#()Ljava/lang/String;" />
+      <node id="4071813177449420861" at="25,0,28,0" concept="5" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="4071813177449420861" at="34,0,37,0" concept="8" trace="getDefault#()Ljetbrains/mps/samples/Dot/structure/GraphKind;" />
+      <node id="4071813177449420861" at="37,52,40,5" concept="4" />
+      <node id="4071813177449420861" at="40,5,43,5" concept="4" />
+      <node id="4071813177449420861" at="43,5,46,5" concept="4" />
+      <node id="4071813177449420861" at="18,0,22,0" concept="1" trace="GraphKind#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="4071813177449420861" at="28,0,34,0" concept="8" trace="getConstants#()Ljava/util/List;" />
+      <node id="4071813177449420861" at="37,0,49,0" concept="8" trace="parseValue#(Ljava/lang/String;)Ljetbrains/mps/samples/Dot/structure/GraphKind;" />
+      <scope id="4071813177449420861" at="14,27,15,18" />
+      <scope id="4071813177449420861" at="22,28,23,19" />
+      <scope id="4071813177449420861" at="25,36,26,19" />
+      <scope id="4071813177449420861" at="34,40,35,27" />
+      <scope id="4071813177449420861" at="38,24,39,36" />
+      <scope id="4071813177449420861" at="41,59,42,29" />
+      <scope id="4071813177449420861" at="44,61,45,31" />
+      <scope id="4071813177449420861" at="18,48,20,20" />
+      <scope id="4071813177449420861" at="14,0,17,0" />
+      <scope id="4071813177449420861" at="22,0,25,0" />
+      <scope id="4071813177449420861" at="25,0,28,0" />
+      <scope id="4071813177449420861" at="34,0,37,0" />
+      <scope id="4071813177449420861" at="18,0,22,0">
+        <var name="name" id="4071813177449420861" />
+        <var name="value" id="4071813177449420861" />
+      </scope>
+      <scope id="4071813177449420861" at="28,48,32,16">
+        <var name="list" id="4071813177449420861" />
+      </scope>
+      <scope id="4071813177449420861" at="28,0,34,0" />
+      <scope id="4071813177449420861" at="37,52,47,34" />
+      <scope id="4071813177449420861" at="37,0,49,0">
+        <var name="value" id="4071813177449420861" />
+      </scope>
+      <unit id="4071813177449420861" at="9,0,50,0" name="jetbrains.mps.samples.Dot.structure.GraphKind" />
+    </file>
+    <file name="GraphKind_PropertySupport.java">
+      <node id="4071813177449420861" at="11,24,12,18" concept="7" />
+      <node id="4071813177449420861" at="13,5,14,95" concept="6" />
+      <node id="4071813177449420861" at="15,33,16,44" concept="6" />
+      <node id="4071813177449420861" at="17,45,18,20" concept="7" />
+      <node id="4071813177449420861" at="20,5,21,17" concept="7" />
+      <node id="4071813177449420861" at="24,24,25,18" concept="7" />
+      <node id="4071813177449420861" at="26,5,27,95" concept="6" />
+      <node id="4071813177449420861" at="28,33,29,44" concept="6" />
+      <node id="4071813177449420861" at="30,45,31,43" concept="7" />
+      <node id="4071813177449420861" at="33,5,34,16" concept="7" />
+      <node id="4071813177449420861" at="36,49,37,53" concept="6" />
+      <node id="4071813177449420861" at="38,27,39,32" concept="7" />
+      <node id="4071813177449420861" at="40,5,41,14" concept="7" />
+      <node id="4071813177449420861" at="10,44,13,5" concept="4" />
+      <node id="4071813177449420861" at="16,44,19,7" concept="4" />
+      <node id="4071813177449420861" at="23,47,26,5" concept="4" />
+      <node id="4071813177449420861" at="29,44,32,7" concept="4" />
+      <node id="4071813177449420861" at="37,53,40,5" concept="4" />
+      <node id="4071813177449420861" at="14,95,20,5" concept="9" />
+      <node id="4071813177449420861" at="27,95,33,5" concept="9" />
+      <node id="4071813177449420861" at="36,0,43,0" concept="5" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="4071813177449420861" at="10,0,23,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="4071813177449420861" at="23,0,36,0" concept="5" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="4071813177449420861" at="11,24,12,18" />
+      <scope id="4071813177449420861" at="17,45,18,20" />
+      <scope id="4071813177449420861" at="24,24,25,18" />
+      <scope id="4071813177449420861" at="30,45,31,43" />
+      <scope id="4071813177449420861" at="38,27,39,32" />
+      <scope id="4071813177449420861" at="15,33,19,7">
+        <var name="constant" id="4071813177449420861" />
+      </scope>
+      <scope id="4071813177449420861" at="28,33,32,7">
+        <var name="constant" id="4071813177449420861" />
+      </scope>
+      <scope id="4071813177449420861" at="36,49,41,14">
+        <var name="constant" id="4071813177449420861" />
+      </scope>
+      <scope id="4071813177449420861" at="36,0,43,0">
+        <var name="value" id="4071813177449420861" />
+      </scope>
+      <scope id="4071813177449420861" at="10,44,21,17">
+        <var name="constants" id="4071813177449420861" />
+      </scope>
+      <scope id="4071813177449420861" at="23,47,34,16">
+        <var name="constants" id="4071813177449420861" />
+      </scope>
+      <scope id="4071813177449420861" at="10,0,23,0">
+        <var name="value" id="4071813177449420861" />
+      </scope>
+      <scope id="4071813177449420861" at="23,0,36,0">
+        <var name="value" id="4071813177449420861" />
+      </scope>
+      <unit id="4071813177449420861" at="9,0,44,0" name="jetbrains.mps.samples.Dot.structure.GraphKind_PropertySupport" />
     </file>
   </root>
 </debug-info>

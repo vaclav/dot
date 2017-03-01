@@ -16,10 +16,10 @@ public class Graph_TextGen extends TextGenDescriptorBase {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     if (SPropertyOperations.getBoolean(ctx.getPrimaryInput(), MetaAdapterFactory.getProperty(0xfb046105bd7c48d7L, 0xbb7b88a9914e3cc3L, 0x3881fc82f19d65acL, 0x3881fc82f19d65d7L, "strict"))) {
       tgs.append("strict");
-    }
-    if (isNotEmptyString(SPropertyOperations.getString(ctx.getPrimaryInput(), MetaAdapterFactory.getProperty(0xfb046105bd7c48d7L, 0xbb7b88a9914e3cc3L, 0x3881fc82f19d65acL, 0x3881fc82f19d65d9L, "GRAPH_KIND_2")))) {
       tgs.append(" ");
-      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), MetaAdapterFactory.getProperty(0xfb046105bd7c48d7L, 0xbb7b88a9914e3cc3L, 0x3881fc82f19d65acL, 0x3881fc82f19d65d9L, "GRAPH_KIND_2")));
+    }
+    if (SPropertyOperations.getString_def(ctx.getPrimaryInput(), MetaAdapterFactory.getProperty(0xfb046105bd7c48d7L, 0xbb7b88a9914e3cc3L, 0x3881fc82f19d65acL, 0x3881fc82f19d65d9L, "graphKind"), "graph") != null) {
+      tgs.append(SPropertyOperations.getString_def(ctx.getPrimaryInput(), MetaAdapterFactory.getProperty(0xfb046105bd7c48d7L, 0xbb7b88a9914e3cc3L, 0x3881fc82f19d65acL, 0x3881fc82f19d65d9L, "graphKind"), "graph"));
     }
     if (isNotEmptyString(SPropertyOperations.getString(ctx.getPrimaryInput(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")))) {
       tgs.append(" ");
@@ -32,7 +32,7 @@ public class Graph_TextGen extends TextGenDescriptorBase {
     tgs.append("}");
   }
   public String getExtension(SNode node) {
-    return "";
+    return "gv";
   }
   public String getFilename(SNode node) {
     return "Graph";

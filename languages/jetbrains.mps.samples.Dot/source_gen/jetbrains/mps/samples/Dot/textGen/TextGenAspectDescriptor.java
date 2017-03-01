@@ -162,7 +162,7 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
     return "Graph";
   }
   private static String getFileExtension_Graph(SNode node) {
-    return "";
+    return "gv";
   }
   private static Map<SAbstractConcept, Integer> buildConceptIndices(SAbstractConcept... concepts) {
     HashMap<SAbstractConcept, Integer> res = new HashMap<SAbstractConcept, Integer>();

@@ -53,11 +53,11 @@ public class Graph_Editor extends DefaultNodeEditor {
   }
   private EditorCell createProperty_6ewwyn_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-    provider.setRole("GRAPH_KIND_2");
-    provider.setNoTargetText("<no GRAPH_KIND_2>");
+    provider.setRole("graphKind");
+    provider.setNoTargetText("<no graphKind>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_GRAPH_KIND_2");
+    editorCell.setCellId("property_graphKind");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     if (attributeConcept != null) {

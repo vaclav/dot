@@ -27,7 +27,7 @@
       </concept>
       <concept id="4071813177449211308" name="jetbrains.mps.samples.Dot.structure.Graph" flags="ng" index="3979$I">
         <property id="4071813177449211351" name="strict" index="3979_l" />
-        <property id="4071813177449211353" name="GRAPH_KIND_2" index="3979_r" />
+        <property id="4071813177449211353" name="graphKind" index="3979_r" />
         <child id="4071813177449211355" name="Stmt_list_1" index="3979_p" />
       </concept>
       <concept id="4071813177449211319" name="jetbrains.mps.samples.Dot.structure.Node_id" flags="ng" index="3979$P">

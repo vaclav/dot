@@ -10,8 +10,16 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+        <reference id="1083171729157" name="memberDataType" index="M4eZT" />
+        <child id="1083172003582" name="member" index="M5hS2" />
+      </concept>
       <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
         <property id="1083066089218" name="constraint" index="FLfZY" />
+      </concept>
+      <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e">
+        <property id="1083923523172" name="externalValue" index="1uS6qo" />
+        <property id="1083923523171" name="internalValue" index="1uS6qv" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
@@ -371,8 +379,8 @@
     </node>
     <node concept="1TJgyi" id="3y1Z8bLBmnp" role="1TKVEl">
       <property role="IQ2nx" value="4071813177449211353" />
-      <property role="TrG5h" value="GRAPH_KIND_2" />
-      <ref role="AX2Wp" node="3y1Z8bLBmno" resolve="GRAPH_KIND" />
+      <property role="TrG5h" value="graphKind" />
+      <ref role="AX2Wp" node="3y1Z8bLC9wX" resolve="GraphKind" />
     </node>
     <node concept="1TJgyj" id="3y1Z8bLBmnr" role="1TKVEi">
       <property role="IQ2ns" value="4071813177449211355" />
@@ -620,6 +628,19 @@
     <property role="TrG5h" value="IdentifiableConcept" />
     <node concept="PrWs8" id="3y1Z8bLBB9t" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="3y1Z8bLC9wX">
+    <property role="3GE5qa" value="Rules.Graph" />
+    <property role="TrG5h" value="GraphKind" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="3y1Z8bLC9wY" role="M5hS2">
+      <property role="1uS6qo" value="graph" />
+      <property role="1uS6qv" value="graph" />
+    </node>
+    <node concept="M4N5e" id="3y1Z8bLC9wZ" role="M5hS2">
+      <property role="1uS6qo" value="digraph" />
+      <property role="1uS6qv" value="digraph" />
     </node>
   </node>
 </model>
